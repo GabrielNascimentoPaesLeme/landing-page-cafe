@@ -1,0 +1,205 @@
+@media(max-width: 991.98px) {
+    .sobre p {
+        width: auto;
+    }
+
+    .contato div {
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0%;
+        transform: translateY(-50%);
+    }
+
+}
+
+@media(max-width: 768px) {
+    .painel {
+        background: url(../images/painel-md.jpg) center center no-repeat;
+        height: 300px;
+    }
+
+    .painel h2 {
+        font-size: 25px;
+
+    }
+
+    #onde-estamos p{
+        width: auto;
+    }
+
+    .ladrilhos div {
+        float: none;
+    }
+    
+    .ladrilhos .grande {
+        background: url(../images/4-med.jpg) center center no-repeat;
+        height: 312px;
+        width: 100%;
+        
+    }
+    
+    .ladrilhos .media {
+        background: url(../images/1-media.jpg) center center no-repeat;
+        height: 300px;
+        width: 100%;
+    }
+    
+    .ladrilhos .pequena1 {
+        background: url(../images/2-media.jpg) center center no-repeat;
+        height: 300px;
+        width: 51.22%;
+        float: right;
+    
+    
+    }
+    
+    .ladrilhos .pequena2 {
+        background: url(../images/3-media.jpg) center center no-repeat;
+        height: 300px;
+        width: 51.22%;
+    
+    }
+
+    
+    
+    .contato {
+        background: #cfa45f;
+    }
+
+    .contato address {
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width: 425px) {
+    .cabecalho .logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .menu {
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu ul li {
+        display: block;
+        margin: auto;
+    
+    }
+
+    .menu ul li a {
+        width: 100%;
+        display: block;
+    }
+
+    .painel {
+        background: url(../images/painel-pq.jpg) center center no-repeat;
+        height: 300px;
+    }
+
+    .painel h2 {
+        font-size: 25px;
+
+    }
+
+    .sobre p {
+        /* width: 324px; */
+        text-align: center;
+        font-size: 20px;
+        margin: 46px auto 150px;
+        line-height: 30px;
+    }
+
+    .sobre h2 {
+        font-size: 30px;
+    }
+
+    #onde-estamos.sobre {
+        padding-left: 18px; 
+        padding-right: 18px; 
+
+    }
+
+    #onde-estamos p {
+        font-size: 18px;
+        text-align: center;
+        
+    }
+
+    .ladrilhos .grande {
+        background: url(../images/4-pq.jpg) center center no-repeat;
+        /* height: 312px; */
+        width: 100%;
+        
+    }
+    
+    .ladrilhos .media {
+        background: url(../images/1-pq.jpg) center center no-repeat;
+        height: 300px;
+        width: 100%;
+        height: 155px;
+    }
+    
+    .ladrilhos .pequena1 {
+        background: url(../images/2-pq.jpg) center center no-repeat;
+        height: 300px;
+        width: 100%;
+        float: none;
+    }
+    
+    .ladrilhos .pequena2 {
+        background: url(../images/3-pq.jpg) center center no-repeat;
+        height: 300px;
+        width: 100%;
+    }
+    
+    .contato div {
+        position: relative;
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #contato address {
+        font-size: 20px;
+    }
+
+    footer {
+        background-image: none;
+        background-color: #000;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    footer .logo {
+        margin-bottom: 122px;
+    }
+
+    footer .menu {
+        margin-bottom: 261px;
+    }
+
+    .logo-social {
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .instagram {
+        left: 50%;
+        top: 75%;
+    }
+    
+    .facebook {
+        right: 50%;
+        top: 75%;
+    }
+    
+
+
+}
